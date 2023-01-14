@@ -1,0 +1,364 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+} 
+.tophaed{
+    background-color:rgb(6, 6, 115) ;
+    width: 100%;    
+    margin-top:42px; 
+}  
+.toptext{
+  color: white; 
+  padding: 3px;  
+  margin: 0%; 
+}   
+.ret{  
+  padding: 3px;
+  margin: 0%;
+  color: white;
+  text-align: center;
+} 
+.tem{
+    width: 100%;
+    height: 5px;
+    border-radius: 1px;
+    margin-top: 4px;
+    background-color: white;
+}
+.tems{ 
+    width: 100%;
+    height: 5px;
+    border-radius: 1px; 
+    background-color: white;
+}
+.mobilenav{
+    width: 100%; 
+    display: flex;   
+    position: fixed;  
+    margin-top: -250px;
+    height: 50px; 
+    background-color: rgb(6, 6, 115); 
+    align-items: center;
+    justify-content: space-between;
+}
+.dowfot{
+    width: 90%;
+    height:50px;
+    margin: auto; 
+}
+.rightside{
+    width: 8%;  
+    padding: 5px; 
+}
+.rightsideer{
+    width: 8%;  
+    padding: 5px; 
+    display: none;
+}
+.downbtns{
+    width: 100%;
+    margin-top: 10px; 
+    display: flex;
+    justify-content: space-around;
+}
+.tembtns{
+    width: 30%;
+    padding: 10px;
+    background-color: white;
+    text-decoration: none; 
+    border:  solid 2px rgb(255, 255, 255) ;
+    color: rgb(6, 6, 115) ; 
+    border-radius: 5px;
+}  
+.number{
+    text-align: center; 
+    color: rgb(6, 6, 115) ; 
+}
+.tembtn{
+    width: 30%;
+    padding: 10px; 
+    text-decoration: none;
+    background-color:rgb(6, 6, 115) ;
+    color: white;
+    border: solid white 2px;
+    border-radius: 5px;
+}
+.sidenav{
+    transition: 1s;
+    width: 0%;
+    overflow: hidden;
+    position: fixed;
+    height: 100vh;
+    background-color: white;
+}
+.lack{
+    position: fixed;
+    width: 0%;  
+    z-index: 223;
+    height: 100vh; 
+    background-color: rgba(0, 0, 0, 0.548);
+}  
+.skills{
+    margin: 0%;
+    padding: 10px;
+    text-align: center;
+    color:rgb(6, 6, 115) ;
+}
+.ski{
+    margin: 0%; 
+    text-align: center;
+    color:rgb(6, 6, 115) ;
+}
+.tmlk{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    margin-top: 5px;
+    font-size:12px;
+}
+.skilldiv{
+    width: 90%;
+    color: rgb(142, 142, 142);
+    margin: auto;
+} 
+.two{
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 100%;
+    height: 20px;
+    background-color: rgb(6, 6, 115);
+    animation-name: stuff;
+    animation-duration: 4s;
+}
+.mekn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@keyframes stuff {
+    10%{
+        width: 0%;
+    }
+}
+
+.onedo{
+   width: 90%;
+   height: 200px;
+   overflow: hidden;
+   margin: auto;
+   padding: 5px;
+   border: solid 3px rgb(236, 236, 236);
+   border-radius: 5px;
+} 
+.mewq{
+    padding: 10px;
+    width: 40%;
+    margin: auto;
+}
+.tml{ 
+    color:rgb(6, 6, 115) ;
+    margin: 0%;
+    padding: 0%; 
+    margin-top: 10px;
+    text-align: center; 
+    font-size: 15px;
+}
+.book{
+    text-align: center;
+    color: rgb(142, 142, 142);
+    font-size: 15px;
+}
+.new{
+    background-color:rgb(6, 6, 115) ;
+    border: white;
+    outline: none;
+    padding: 15px;
+    font-size: 12px ;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.upert{
+    position: fixed;
+    bottom: 0%;   
+    width: 100%;
+}
+.up{
+  background-color: rgb(6, 6, 115);
+  float: right;
+  margin-right: 10px; 
+  color: white;
+  font-size: 14px;
+  border-radius:3px;
+  padding: 5px; 
+}
+.saydiv{
+    margin-top: 10px;
+    width: 95%;   
+    margin: auto; 
+}
+.nexter{ 
+    display: flex;
+    margin: auto;
+    width: 95%;
+    align-items: center; 
+} 
+.nexters{ 
+    display: none;
+    margin: auto;
+    width: 95%;
+    align-items: center; 
+} 
+.arrdiv{
+   position: absolute;
+   display:flex;
+   width: 100%;
+   justify-content: space-between;
+}
+.imgsiv{
+    width: 100%;
+    margin: auto;
+    padding: 10px; 
+    color: rgb(142, 142, 142);
+    align-items: center;
+    font-size: 7px; 
+}
+.imediv{
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    border-radius:100px;
+}
+.wet{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+}
+.bets{ 
+   width: 100%;
+   text-align: center;
+}
+.dert{
+    border-radius: 5px;
+    margin: auto;
+    width: 10%;
+    margin-top: 5px;
+    height: 5px;
+    background-color: rgb(6, 6, 115);
+}
+.onedivider{
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+.oti{
+    width: 49%;
+    height: inherit; 
+}
+.abua{
+    width: 1%;
+    height: inherit;
+    display:flex; 
+    background-color: rgb(6, 6, 115);
+    justify-content: center; 
+    align-items: center;  
+}
+.imertdiv{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin: auto;
+}
+.werting{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-size: 12px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 6, 115); 
+}
+.curdert{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+.years{
+    text-align: center;
+    font-size: 10px;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+.foot{
+  width: 100%; 
+  background-color:  rgb(6, 6, 115);
+}
+.fotone{
+    width: 100%;
+    display: flex; 
+    justify-content: space-around;
+    padding: 1px;
+}
+.fotoner{
+    margin: auto;
+    width: 90%;  
+}
+.meloi{
+    color: white;
+    margin: 0%;
+    font-size: 10px;
+}
+.fotbtn{
+    border-radius:2px;
+    width: 35%;
+    border: solid 2px white;
+    outline: none;
+    color: white;
+    background-color:rgb(6, 6, 115) ;
+    padding: 10px;
+}
+.mail{
+    width: 55%;
+    outline: none;
+    border: none;
+    border-radius:2px;
+    padding: 10px;
+}
+.me3loi{ 
+    color: white;
+    margin: 0%;
+    width: 30%;
+    font-size: 20px;
+    border-bottom: solid 2px white;
+}
+.compu-div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.meltering{
+   width: 10%;
+}
+.right{ 
+   font: bold;
+   margin-top: -5px;
+   font-size:10px;
+   text-align: center;
+   margin-left: 10px;   
+   padding: 10px;
+   color:white;
+}
+@media(min-width:500px) {
+    body{
+        background-color: red;
+    }
+}

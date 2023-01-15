@@ -7,7 +7,8 @@ body{
 .tophaed{
     background-color:rgb(6, 6, 115) ;
     width: 100%;    
-    margin-top:42px; 
+    height: 220px;
+    margin-top:10px; 
 }  
 .toptext{
   color: white; 
@@ -74,6 +75,13 @@ body{
 }  
 .number{
     text-align: center; 
+    color: rgb(6, 6, 115) ; 
+}
+.number3{
+    text-align: right;  
+    margin-right: 20px;
+    margin: 0px;
+    padding: 10px;
     color: rgb(6, 6, 115) ; 
 }
 .tembtn{
@@ -146,7 +154,7 @@ body{
 }
 
 .onedo{
-   width: 90%;
+   width: 77%;
    height: 200px;
    overflow: hidden;
    margin: auto;
@@ -187,6 +195,14 @@ body{
     position: fixed;
     bottom: 0%;   
     width: 100%;
+}
+.tech{
+    text-align: center;
+    padding: 2px;
+    color:rgba(218, 218, 218, 0.933);
+}
+.svert{
+    width: 10px;
 }
 .up{
   background-color: rgb(6, 6, 115);
@@ -308,13 +324,20 @@ body{
     justify-content: space-around;
     padding: 1px;
 }
+a{
+    text-decoration: none;
+}
 .fotoner{
     margin: auto;
+    display: flex; 
+    align-items: center;
     width: 90%;  
 }
 .meloi{
     color: white;
-    margin: 0%;
+    margin: 0%; 
+    display: flex;
+    align-items: center;
     font-size: 10px;
 }
 .fotbtn{

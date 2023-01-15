@@ -8,10 +8,16 @@ function side( ) {
     let leftside = document.getElementById("leftside");
     let erters = document.getElementById("erters");
     let melter = document.getElementById("melter"); 
+    let closeit = document.getElementById("closeit"); 
+
+closeit.addEventListener("click" ,()=>{
+    lacker.style.width="0%"
+    navert.style.transition="1s"
+    navert.style.width="0%" 
+})
     oneclick.addEventListener("click" , ()=>{
         navert.style.width="70%" 
-        lacker.style.width="100%" 
-        oneclick.style.display="none"
+        lacker.style.width="100%"  
     }) 
     arright.addEventListener("click",()=>{
         firstside.style.display="none";
@@ -30,3 +36,4 @@ function side( ) {
         firstside.style.display="flex";
     })
 }side()
+ 
